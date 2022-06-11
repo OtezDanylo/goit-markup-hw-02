@@ -1,0 +1,17 @@
+li {
+    list-style: none;
+}
+ /* body {
+    background-color:  rgba(238, 238, 238, 1);
+ } */
+ .filter:hover:focus:active {
+color: rgba(33, 150, 243, 1);
+ }
+ 
+ .contacts {
+ color: rgba(117, 117, 117, 1);
+ }
+
+ .contacts:hover {
+color: rgba(33, 150, 243, 1);
+ }
