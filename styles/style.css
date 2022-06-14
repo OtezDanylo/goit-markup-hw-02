@@ -97,6 +97,17 @@ color: var(--background-button-color);
    cursor: pointer;
  }
 
+ .Filter-names {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 188%;
+      letter-spacing: 0.03em;
+      color: var(--p-color)
+ }
+
+
  .pages {
  Font-family: "Roboto";
 color: var(--bold-letters);
@@ -175,6 +186,7 @@ font-style: medium;
       left: 700px;
       top: 430px;
       position: absolute;
+      cursor: pointer;
  }
 
 .head-button:hover,
@@ -202,12 +214,14 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 171%;
-
-
 letter-spacing: 0.03em;
-
 color: #FFFFFF;
  }
+
+.maps:hover,
+.maps:focus {
+color: var(--background-button-color);
+}
 
  .team-background {
    background-color:#F5F4FA
