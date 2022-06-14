@@ -2,13 +2,21 @@
 --background-button-color:#2196F3;
 --p-color:#757575;
 --bold-letters:#212121;
+--background-color: #7c6262;
+--underheader: #2F303A;
+--white:#FFFFFF;
+--colorf5f4:#F5F4FA;
+--twentyone:#212121;
+--footer:#2F303A;
+--yes:#ECECEC;
+--black:#000000;
   }
   
   body {
     font-family:'Roboto', sans-serif ;
-    background-color: white;
+    background-color: var(--white);
     font-size: 14px;
-    letter-spacing: 0.03;
+    letter-spacing: 0.03em;
  } 
 
  li,h3,a,p {
@@ -17,12 +25,8 @@
 }
 
 .underheader {
-   background-color: #2F303A;
-   width: 1600px;
-      height: 600px;
-      left: 0px;
-      top: 80px;
-}
+   background-color: var(--underheader);
+   }
  
  .contacts {
    text-decoration: none;
@@ -30,7 +34,7 @@
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 100%;
+line-height: 1.7;
 letter-spacing: 0.02em;
 
 color: var(--p-color);
@@ -42,12 +46,12 @@ color: var(--p-color);
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 136%;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 
-color: #FFFFFF;
+color: var(--white);
  }
 
  .uppercase {
@@ -55,7 +59,7 @@ color: #FFFFFF;
    font-family: "Roboto";
    font-style: 'Bold';
    font-size: 14px;
-   line-height: 100%;
+   line-height: 1.14;
 
  }
 
@@ -76,7 +80,7 @@ color: var(--background-button-color);
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
-        line-height: 171%;
+        line-height: 2;
         /* identical to box height, or 200% */
     
         letter-spacing: 0.06em;
@@ -102,7 +106,7 @@ color: var(--background-button-color);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 188%;
+    line-height: 1.6;
       letter-spacing: 0.03em;
       color: var(--p-color)
  }
@@ -111,8 +115,6 @@ color: var(--background-button-color);
  .pages {
  Font-family: "Roboto";
 color: var(--bold-letters);
-font-size: 14px;
-letter-spacing: 2%;
 font-style: medium;
  }
 
@@ -124,18 +126,21 @@ font-style: medium;
 ;
  }
 
+ .current-pages:hover,
+.current-pages:focus{
+color:var(--background-button-color)
+ }
+
  .team {
-   background-color: #F5F4FA;
+   background-color: var(--colorf5f4);
  }
 
  .team-post {
-
-
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 400;
    font-size: 16px;
-   line-height: 19px;
+   line-height: 1.1;
 
    letter-spacing: 0.03em;
 
@@ -146,22 +151,17 @@ font-style: medium;
    font-family: "Raleway";
    font-style: bold;
    font-size: 26px;
-   line-height: 100%;
+   line-height: 1.19;
    color: var(--background-button-color);
  }
 
  .why {
-
-
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
-   line-height: 24px;
-   /* or 171% */
-
-   letter-spacing: 0.03em;
-
+   line-height: 1.7;
+      letter-spacing: 0.03em;
    color: var(--p-color);
  }
 
@@ -172,26 +172,26 @@ font-style: medium;
    font-style: normal;
    font-weight: 500;
    font-size: 16px;
-   line-height: 19px;
+   line-height: 1.1;
    letter-spacing: 0.03em;
 
    color: var(--bold-letters);
  }
 
  .head-button {
-   color:#FFFFFF ;
+   color:var(--white) ;
    background-color: var(--background-button-color);
-      width: 200px;
-      height: 50px;
-      left: 700px;
-      top: 430px;
-      position: absolute;
-      cursor: pointer;
+   cursor: pointer;
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
  }
 
 .head-button:hover,
  .head-button:focus {
-   background-color: var(--background-button-color);
+   background-color: #188CE8;
  }
 
  .visualli-hidden 
@@ -213,9 +213,9 @@ font-style: medium;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 171%;
+line-height: 1.7;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color: var(--white);
  }
 
 .maps:hover,
@@ -224,7 +224,7 @@ color: var(--background-button-color);
 }
 
  .team-background {
-   background-color:#F5F4FA
+   background-color:var(--colorf5f4)
  }
 
  .background-footer {
@@ -233,4 +233,33 @@ color: var(--background-button-color);
       left: 0px;
       top: 2097px;
       background-color: var(--bold-letters);
+ }
+
+ .studio {
+  font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--white);
+ }
+
+ .studio1 {
+  font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--black)
+ }
+
+ .doing {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16px;
+text-align: center;
+letter-spacing: 0.03em;
+color:var(--twentyone)
  }
