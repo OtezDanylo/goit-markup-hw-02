@@ -69,32 +69,35 @@ color: var(--background-button-color);
  }
  
 
- .names {
-    position: absolute;
-        width: 322px;
-        height: 36px;
-        left: 239px;
-        top: 576px;
-    
+ .Names {
+   
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
-        /* identical to box height, or 200% */
-    
         letter-spacing: 0.06em;
     
         color: var(--bold-letters);
  }
 
  .filter {
-   color:var(--bold-letters) ;
+  
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.16;
+        text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: var(--twentyone)
  }
 
 .filter:hover,
 .filter:focus {
    background-color: var(--background-button-color);
+   color: var(--white);
 }
 
  .filter{
@@ -115,21 +118,25 @@ color: var(--background-button-color);
  .pages {
  Font-family: "Roboto";
 color: var(--bold-letters);
-font-style: medium;
+font-weight: 500; 
  }
 
 
  .pages:active,
  .pages:hover,
  .pages:focus {
-   color: var(--background-button-color)
-;
- }
+   font-weight : 500;
+  color: var(--background-button-color)
+  }
 
- .current-pages:hover,
+ /* .current-pages:hover,
 .current-pages:focus{
 color:var(--background-button-color)
- }
+} */
+
+.current-pages  {
+  color: var(--background-button-color)
+}
 
  .team {
    background-color: var(--colorf5f4);
@@ -186,7 +193,8 @@ color:var(--background-button-color)
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.88;
+    letter-spacing: 0.06em
  }
 
 .head-button:hover,
@@ -194,20 +202,19 @@ color:var(--background-button-color)
    background-color: #188CE8;
  }
 
- .visualli-hidden 
-   .visually-hidden {
-         position: absolute;
-         width: 1px;
-         height: 1px;
-         margin: -1px;
-         border: 0;
-         padding: 0;
-   
-         white-space: nowrap;
-         clip-path: inset(100%);
-         clip: rect(0 0 0 0);
-         overflow: hidden;
-      }
+     .visually-hidden {
+       position: absolute;
+       width: 1px;
+       height: 1px;
+       margin: -1px;
+       border: 0;
+       padding: 0;
+  
+       white-space: nowrap;
+       clip-path: inset(100%);
+       clip: rect(0 0 0 0);
+       overflow: hidden;
+     }
  .maps {
    font-family: 'Roboto';
 font-style: normal;
@@ -263,3 +270,19 @@ text-align: center;
 letter-spacing: 0.03em;
 color:var(--twentyone)
  }
+
+ .our-team {
+
+ }
+
+ .our-team {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--twentyone)
+}
